@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated Computers & Geosciences manuscript."
+title: "Surrogate-assisted Bayesian inversion of 3D hydraulic conductivity fields on unstructured geoscience meshes"
+version: "1.0.0"
+date-released: "2026-05-25"
+authors:
+  - family-names: "Zhao"
+    given-names: "Zifei"
+license: "MIT"
+repository-code: "https://github.com/USERNAME/REPOSITORY"
+doi: "10.5281/zenodo.XXXXXXX"

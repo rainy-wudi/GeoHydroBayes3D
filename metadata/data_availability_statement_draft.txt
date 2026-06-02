@@ -1,0 +1,3 @@
+Data availability statement draft
+
+The code repository includes an anonymized demonstration dataset that allows reproduction of the complete computational workflow, including sample construction, PA-DNN surrogate training, model comparison, KD-tree mapping demonstration, and Bayesian inversion. The full raw engineering investigation data and proprietary finite-element output files cannot be publicly released due to project confidentiality restrictions. The public demonstration dataset preserves the parameter ranges, data schema, borehole count, and hydraulic-head response structure required to reproduce the methods.

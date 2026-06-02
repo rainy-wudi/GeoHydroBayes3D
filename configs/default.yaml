@@ -1,0 +1,37 @@
+random_seed: 42
+
+paths:
+  dataset: data/Final_ML_Dataset.csv
+  borehole_observations: data/borehole_observations.csv
+  mesh_centroids: data/mesh_centroids_demo.csv
+  random_field_reference: data/random_field_example.csv
+  output_dir: outputs
+
+columns:
+  input:
+    - log10_K_Lower
+    - log10_K_Middle
+    - log10_K_Upper
+    - COV
+    - dh
+    - dv
+  output_prefix: zk
+
+training:
+  test_size: 0.20
+  batch_size: 32
+  epochs: 100
+  learning_rate: 0.001
+  dropout: 0.10
+  physical_loss_weight: 0.10
+  hidden_layers: [128, 256, 128]
+
+mcmc:
+  walkers: 24
+  steps: 1000
+  burn_in: 200
+  observation_sigma_m: 2.0
+  proposal_scale: 0.03
+
+sensitivity:
+  monte_carlo_samples: 512

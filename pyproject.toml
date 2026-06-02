@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hydro-inverse"
+version = "1.0.0"
+description = "Surrogate-assisted Bayesian inversion for 3D hydraulic-conductivity fields"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Zifei Zhao and co-authors"}]
+license = {text = "MIT"}
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "scipy>=1.9",
+    "scikit-learn>=1.2",
+    "matplotlib>=3.6",
+    "PyYAML>=6.0",
+    "joblib>=1.2",
+    "torch>=2.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

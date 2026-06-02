@@ -1,0 +1,16 @@
+file,field,description
+Final_ML_Dataset.csv,odb_file,"simulation case identifier, Job_Pxxx_Ryy.odb"
+Final_ML_Dataset.csv,P_index,"macroscopic parameter group number, 1-50"
+Final_ML_Dataset.csv,realization,"random-field realization number, 1-20"
+Final_ML_Dataset.csv,log10_K_Lower,"log10 hydraulic conductivity for lower layer, m/s"
+Final_ML_Dataset.csv,log10_K_Middle,"log10 hydraulic conductivity for middle layer, m/s"
+Final_ML_Dataset.csv,log10_K_Upper,"log10 hydraulic conductivity for upper layer, m/s"
+Final_ML_Dataset.csv,COV,coefficient of variation of hydraulic conductivity
+Final_ML_Dataset.csv,dh,"horizontal correlation length, m"
+Final_ML_Dataset.csv,dv,"vertical correlation length, m"
+Final_ML_Dataset.csv,zk*,"simulated hydraulic head at each borehole in model datum, m"
+borehole_observations.csv,observed_head_model_datum_m,"field-observation-derived head after reference datum correction, m"
+borehole_observations.csv,observed_head_anonymized_m,"shifted public head level preserving relative differences, m"
+borehole_data.csv,calculated_head,"long-format simulated hydraulic head, m"
+mesh_centroids_demo.csv,x_demo_m/y_demo_m/z_demo_m,anonymized mesh centroid coordinates
+random_field_example.csv,log10_K_demo,example mapped log10 hydraulic conductivity field

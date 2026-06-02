@@ -1,0 +1,18 @@
+
+random_seed: 20260525
+n_parameter_groups: 50
+realizations_per_group: 20
+n_samples: 1000
+n_boreholes: 23
+head_reference_shift_m: -50.6
+parameter_bounds:
+  log10_K_Lower: [-9.0, -7.0]
+  log10_K_Middle: [-8.0, -6.0]
+  log10_K_Upper: [-7.0, -5.0]
+  COV: [0.4, 1.0]
+  dh: [50.0, 300.0]
+  dv: [1.0, 5.0]
+anonymization:
+  coordinates: affine transform with rotation, scaling, and translation
+  heads: datum-corrected and mean-shifted versions are provided
+  FEM_outputs: generated demo outputs anchored to field observations; not raw proprietary FEM outputs
