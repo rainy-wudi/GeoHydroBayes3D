@@ -15,5 +15,5 @@ authors:
   - family-names: "Cheng"
     given-names: "Lin"
 license: "MIT"
-repository-code: "https://github.com/rainy-wudi/GeoHydroBayes3D"
-doi: "10.5281/zenodo.20371908"
+repository-code: "https://github.com/rainy-wudi/GeoHydroBayes3D-Code"
+doi: "10.5281/zenodo.20551417"
