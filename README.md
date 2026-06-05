@@ -221,7 +221,7 @@ The original engineering dataset used in the study cannot be made publicly avail
 The source code, synthetic demonstration dataset, example configuration files, and workflow scripts are publicly available in this repository:
 
 ```text
-https://github.com/rainy-wudi/GeoHydroBayes3D1
+https://github.com/rainy-wudi/GeoHydroBayes3D-Code
 ```
 
 A versioned archive of the public code package will be made available through Zenodo. The final Zenodo DOI should be added here after the corresponding release has been successfully archived.
